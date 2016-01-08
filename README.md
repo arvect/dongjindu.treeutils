@@ -1,5 +1,5 @@
 # dongjindu.treeutils
-Tree traverser implementation. Currently only preorder implemented. Lighter and faster than Guava but require user to return list interface. It is stricter requirement than iterable.  
+Tree traverser implementation. Currently only preorder implemented. Lighter and faster than Guava but require user to return list interface. It is stricter requirement than iterable. It is easy to rewrite the implementation using iterable since iterable interface has an iterator function that returns Iterator interface. So in the iteration of children nodes, we can just use next() and hasNext() instead of remember the index and get(index) function of List.  
 
 ##Usage example:  
 &nbsp;&nbsp;TreePreorder<TestNode> preorder = new TreePreorder(root){  
