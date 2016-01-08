@@ -5,7 +5,7 @@ Tree traverser implementation. Currently only preorder implemented. Lighter and 
 &nbsp;&nbsp;TreePreorder<TestNode> preorder = new TreePreorder(root){  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;            @Override  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;            public List<TestNode> children(TestNode parent) {  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                return <a list of TestNode>;  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                return _a list of TestNode_;  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;            }  
 &nbsp;&nbsp;     };  
   
